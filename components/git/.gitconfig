@@ -1,0 +1,27 @@
+[init]
+defaultBranch = main
+
+[alias]
+st = status
+ci = commit
+br = branch
+co = checkout
+
+[user]
+name = curetheopensource
+email = curetheopensource@proton.me
+signingkey = 7FC401EAE4340AF6
+
+[core]
+quotePath = false
+autocrlf = input
+editor = nvim
+
+[commit]
+gpgsign = true
+
+[pull]
+rebase = false
+
+[safe]
+directory = *
